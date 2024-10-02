@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+header .text{
+    justify-content: space-between;
+}
+header{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index:999;
+}
+header ul{
+    list-style-type: none;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 20px;
+    display: inline-block;
+    transition: 0.5s;
+}
+header a:hover{
+    color:#9b801e
+}
+#start {
+    height: 100vh;
+    background-image: url(" https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#start .box-text {
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+
+}
+
+#start .box-text h3 {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+}
+
+#start .box-text h1 {
+    font-size: 4rem;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+}
+#start .box-text a {
+    background-color: #ffc800;
+    color: white;
+    text-decoration: none;
+    padding: 25px 30px;
+    border-radius: 10px;
+    transition: 0.5s;
+    padding: 20px 50px;
+    font-size: 2 rem;
+}
+#start .box-text a:hover{
+    background-color: #9b801e;
+    transition: 0.5s;
+}
+#services{
+    padding: 9rem 0 ;
+    background-color: #fcfeff;
+    color: rgb(11, 10, 10);
+    height: 90vh;
+
+
+}
+
+#services .box-text {
+    text-align: center;
+    /* height: 70vh; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#services .boxes {
+    display: flex;
+    padding-top: 30px;
+}
+
+#services .boxes .box {
+    text-align: center;
+    /* width: 25%; */
+    margin:50px 0;
+    
+}
+
+#services .boxes .box i {
+    padding: 50px;
+    background-color: #ffc800;
+    color: #fbfbf7;
+    border-radius:50%;
+    font-size: 50px;
+    padding-top: 50px;
+
+}
+
+#services .box-text p {
+    color:grey;
+    font-style: italic;
+    font-size: 30px;
+
+}
+#services .box-text h1{
+    font-size: 60px;
+    
+}
+#services .boxes .box p{
+    color: grey;
+    font-size: 20px;
+
+}
+#services .boxes .box h4{
+    font-size: 40px;
+}
+/* 3 cu sehife
+========================================================
+======================================================== */
+#portfolio{
+    background-color: rgb(238, 236, 236);
+    padding: 4rem 0;
+
+    
+}
+#portfolio .head{
+    text-align: center;
+    font-size: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#portfolio .head p{
+    font-style: italic;
+    color: grey;
+}
+#portfolio .finish {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 120vh;
+    margin: 40px auto;
+
+}
+#portfolio .finish .threads{
+    width:28%;
+    margin: 28px;
+
+}
+#portfolio .finish .threads img{
+    width:100%;
+    vertical-align: middle;
+}
+#portfolio .finish .threads .top-box{
+    position: relative;
+
+}
+#portfolio .finish .threads .top-box .yellow-box{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    background-color: rgba(255, 200, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    opacity: 0;
+
+}
+#portfolio .finish .threads .top-box .yellow-box i{
+    font-size: 30px;
+    color:white;
+}
+#portfolio .finish .threads .bottom-box{
+    text-align: center;
+    background-color: white;
+    padding:30px 0;
+    box-shadow: 0 0 15px 0 black;
+}
+#portfolio .finish .threads .top-box:hover .yellow-box{
+   
+    opacity: 1;
+}
